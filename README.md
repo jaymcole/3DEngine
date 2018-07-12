@@ -23,7 +23,6 @@ A 3D Java game engine
 ## Authors
 
 * **ThinMatrix** (This project was based off of ThinMatrix's game engine tutorial.)
-
 * **Jason Cole**
 
 ## License
