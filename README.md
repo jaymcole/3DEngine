@@ -36,8 +36,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Screenshots
 
-![alt text](https://github.com/jaymcole/3DEngine/3DEngine_Screenshots/shot4.png)
-![alt text](https://github.com/jaymcole/3DEngine/3DEngine_Screenshots/shot1.png)
-![alt text](https://github.com/jaymcole/3DEngine/3DEngine_Screenshots/shot2.png)
-![alt text](https://github.com/jaymcole/3DEngine/3DEngine_Screenshots/shot3.png)
-
+![alt text](https://github.com/jaymcole/3DEngine/blob/master/3DEngine_Screenshots/shot4.png)
+![alt text](https://github.com/jaymcole/3DEngine/blob/master/3DEngine_Screenshots/shot1.png)
+![alt text](https://github.com/jaymcole/3DEngine/blob/master/3DEngine_Screenshots/shot2.png)
+![alt text](https://github.com/jaymcole/3DEngine/blob/master/3DEngine_Screenshots/shot3.png)
