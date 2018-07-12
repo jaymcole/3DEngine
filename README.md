@@ -18,7 +18,8 @@ A 3D Java game engine
 
 ## Built With
 
-* Java
+* LWJGL
+* OpenGL
 
 ## Authors
 
