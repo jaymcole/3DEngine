@@ -1,10 +1,36 @@
-<<<<<<< HEAD
 # 3DEngine
-Creating a 3D Game engine in Java
 
-Following ThinMatrix's youtube tutorial on making a 3D Game Engine
-https://www.youtube.com/channel/UCUkRj4qoT1bsWpE_C8lZYoQ
-=======
-# 3DEngine
-Creating a 3D Game engine in Java
->>>>>>> refs/remotes/origin/master
+A 3D Java game engine 
+(Screenshots below)
+
+## Features
+
+1. Terrain Generation
+2. Shadow
+3. Particle System
+4. Normal Maps
+5. 3D Model Support
+
+## Getting Started
+
+* Clone project and run via...
+* src > engineTester > MainGameLoop.java
+
+## Built With
+
+* Java
+
+## Authors
+
+* **ThinMatrix**
+*    This project was based heavily off of ThinMatrix's game engine tutorial.
+
+* **Jason Cole**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Screenshots
+
+
