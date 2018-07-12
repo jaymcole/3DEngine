@@ -11,6 +11,7 @@ import org.lwjgl.opengl.GL20;
 import org.lwjgl.util.vector.Matrix4f;
 import org.lwjgl.util.vector.Vector2f;
 import org.lwjgl.util.vector.Vector3f;
+import org.lwjgl.util.vector.Vector4f;
 
 public abstract class ShaderProgram {
 
@@ -72,6 +73,9 @@ public abstract class ShaderProgram {
            GL20.glUniform1i(location, value);
        }
        
+       protected void loadVector(int location, Vector4f vector) {
+           GL20.glUniform4f(location, vector.x, vector.y, vector.z, vector.w);   
+       }
        
        protected void loadVector(int location, Vector3f vector) {
            GL20.glUniform3f(location, vector.x, vector.y, vector.z);   
@@ -118,6 +122,7 @@ public abstract class ShaderProgram {
            if (GL20.glGetShaderi(shaderID, GL20.GL_COMPILE_STATUS) == GL11.GL_FALSE) {
                System.out.println(GL20.glGetShaderInfoLog(shaderID, 500));
                System.err.println("Could not compile shader.");
+               
                System.exit(-1);
            }
            return shaderID;

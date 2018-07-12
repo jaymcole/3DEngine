@@ -19,14 +19,13 @@ public class DisplayManager {
     
     public static void createDisplay() {
         
-        ContextAttribs attribs = new ContextAttribs(3,2).withForwardCompatible(true).withProfileCore(true);
+        ContextAttribs attribs = new ContextAttribs(3,3).withForwardCompatible(true).withProfileCore(true);
         
         try {
             Display.setDisplayMode(new DisplayMode(WIDTH, HEIGHT));
             Display.create(new PixelFormat(), attribs);
             Display.setTitle("Game Biz");
         } catch (LWJGLException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
         
@@ -48,14 +47,10 @@ public class DisplayManager {
     }
     
     public static void closeDisplay() {
-        
-        
         Display.destroy();
     }
     
     private static long getCurrentTime() {
         return Sys.getTime() * 1000 / Sys.getTimerResolution();
     }
-    
-    
 }

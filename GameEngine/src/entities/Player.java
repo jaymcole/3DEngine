@@ -1,20 +1,18 @@
 package entities;
 
-import java.awt.RenderingHints.Key;
-
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.util.vector.Vector3f;
 
 import models.TexturedModel;
 import renderEngine.DisplayManager;
 import terrain.Terrain;
-import terrain.Terrain_OLD;
+
 
 public class Player extends Entity {
 
     private static final float RUN_SPEED = 50f;
     private static final float TURN_SPEED = 160f;
-    private static final float GRAVITY = -50.0f;
+    public static final float GRAVITY = -50.0f;
     private static final float JUMP_POWER = 30f;
 
 //    private static final float TERRAIN_HEIGHT = 0;
@@ -24,10 +22,10 @@ public class Player extends Entity {
     private float upwardSpeed = 0;
 
     private boolean isInAir = false;
+    
 
     public Player(TexturedModel model, Vector3f position, float rotx, float roty, float rotz, float scale) {
         super(model, position, rotx, roty, rotz, scale);
-
     }
 
     public void move(Terrain terrain) {
