@@ -26,6 +26,10 @@ A 3D Java game engine
 * **ThinMatrix** (This project was based off of ThinMatrix's game engine tutorial.)
 * **Jason Cole**
 
+## InformationSources
+* (ThinMatrix) https://www.youtube.com/watch?v=VS8wlS9hF8E&list=PLRIWtICgwaX0u7Rf9zkZhLoLuZVfUksDP
+* http://www.lighthouse3d.com/
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
